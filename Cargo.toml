@@ -1,0 +1,16 @@
+[package]
+name = "libusbgx-sys"
+version = "0.1.0"
+description = "Naive bindings to libusbgx."
+authors = ["Sid Spry"]
+license = "AGPL-3.0"
+homepage = "https://github.com/R030t1/libusbgx-sys"
+keywords = ["usb", "embedded", "linux"]
+categories = ["api-bindings", "embedded", "hardware-support", "os::unix-apis"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[build-dependencies]
+bindgen = "*"
+
+[dependencies]
